@@ -1,0 +1,8 @@
+venv/
+lectures/
+exercises/
+index.html
+.DS_Store
+.vscode/
+.ocho_log
+__pycache__/
