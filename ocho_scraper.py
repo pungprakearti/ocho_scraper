@@ -42,6 +42,8 @@ import datetime
 from ocho_indexer import index
 import ocho_progress_bar
 
+import secret
+
 
 def find_and_keep(list_to_edit, key_to_find):
     '''
@@ -395,7 +397,6 @@ def scrape(URLS):
 
 bar = ocho_progress_bar.create_bar()
 
-URLS = ['URL1',
-        'URL2']
+URLS = [secret.url1, secret.url2]
 
 scrape(URLS)

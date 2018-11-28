@@ -6,3 +6,4 @@ index.html
 .vscode/
 .ocho_log
 __pycache__/
+*secret*
