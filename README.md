@@ -40,6 +40,8 @@ python3 ocho_scraper.py
 
 **remove local saved data and rescrape all**
 
+This is an optional step. Sometimes the instructors have typos or change code after you've already scraped it. Use this command to rescrape **everything**. If you want to scrape individual files, just delete the directory for the lecture/exercise and when you run ocho_scraper without -a, it will rescrape that specific folder.
+
 ```
 python3 ocho_scraper.py -a
 ```
@@ -52,7 +54,7 @@ python3 ocho_scraper.py -a
 open index.html
 ```
 
-use command + f to search for keywords in the indexer and the links will take you right to where the information lives.
+Use command + f to search for keywords in the indexer and the links will take you right to where the information lives.
 
 ---
 
