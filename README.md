@@ -1,5 +1,11 @@
 # ocho_scraper
 
+<p align="center">
+<img src="ocho_preview.gif" alt="animated gif of ocho_scraper functionality" />
+</p>
+
+
+
 ## installation
 
 **clone repo**
