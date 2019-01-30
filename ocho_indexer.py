@@ -106,7 +106,7 @@ def create_html(links, sorted_headers, links_ex, sorted_headers_ex, contents_lis
         </style>
     </head>
     <body>
-    
+
     <div class="container">
         <div class="row text-center">
             <div class="col header">
@@ -155,7 +155,7 @@ def create_html(links, sorted_headers, links_ex, sorted_headers_ex, contents_lis
             </a></li>
         ''')
 
-    file.write(''' 
+    file.write('''
                 </ul>
             </div>
         </div>
@@ -208,7 +208,7 @@ def convert_date(date_string):
     months = ['January', 'February', 'March', 'April', 'May', 'June',
               'July', 'August', 'September', 'October', 'November', 'December']
 
-    return f'{months[int(date_string[0:2]) - 1]} {int(date_string[2:4])}, {date_string[4:]}'
+    return f'{months[int(date_string[4:6]) - 1]} {int(date_string[6:])}, {date_string[:4]}'
 
 
 def index(contents_list=[], contents_list_ex=[]):

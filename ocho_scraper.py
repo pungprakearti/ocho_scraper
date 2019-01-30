@@ -265,7 +265,11 @@ def get_toc_data(contents):
                 month = '0' + str(month)
             year = contents[i+1].split('-')[2]
 
-            date = str(month) + str(day) + str(year)
+            # this is the date string that is used by the indexer later on.
+            #   in order to get it to sort correctly, the pattern must be
+            #   year, month, day. In the indexer, it is printed as
+            #   month, day, year.
+            date = str(year) + str(month) + str(day)
 
             # header
             header = line.split('"')[1].split('"')[0].rstrip('/')
